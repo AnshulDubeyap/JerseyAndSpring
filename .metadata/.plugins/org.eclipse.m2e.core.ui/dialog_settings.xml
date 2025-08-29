@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Anshul Dubey\Desktop\Jersey\WebApp-3"/>
 			<item value="C:\Users\Anshul Dubey\Desktop\Jersey\WebApp3"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -30,6 +31,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Anshul.WebApp_4"/>
+			<item value="Anshul.JerseyDatabase"/>
 			<item value="Anshul.WebApp4"/>
 			<item value="Anshul.WebApp3"/>
 			<item value="Anshul.WebApp2"/>
@@ -38,6 +41,8 @@
 			<item value="Anshul"/>
 		</list>
 		<list key="artifactId">
+			<item value="WebApp-4"/>
+			<item value="JerseyDatabase"/>
 			<item value="WebApp4"/>
 			<item value="WebApp3"/>
 			<item value="WebApp2"/>
