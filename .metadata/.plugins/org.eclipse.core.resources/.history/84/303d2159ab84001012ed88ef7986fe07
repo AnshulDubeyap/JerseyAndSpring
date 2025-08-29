@@ -1,0 +1,8 @@
+package Anshul.WebApp1;
+
+import jakarta.ws.rs.Path;
+
+@Path("alien")
+public class AlienResources {
+
+}

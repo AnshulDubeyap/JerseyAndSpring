@@ -1,0 +1,26 @@
+package Anshul.WebApp1;
+
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+
+
+// Whenever i all aliens , it will this resource
+@Path("aliens")
+public class AlienResources {
+	
+	// method in alien resources 
+
+	// Whenever we use get request call this method in ALienResources
+	@GET
+	public Alien createAlien() {
+		
+		System.out.print("Get ALien method is Called");		
+		Alien a1 = new Alien();
+		
+		a1.setName("Anshul");
+		a1.setPoints(88);
+		
+		return a1;
+	}
+
+}

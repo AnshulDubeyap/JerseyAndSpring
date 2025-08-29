@@ -1,0 +1,12 @@
+package Anshul.WebApp1;
+
+import jakarta.ws.rs.Path;
+
+
+// Whenever i all aliens , it will this resource
+@Path("aliens")
+public class AlienResources {
+	
+	// method in alien resources 
+
+}

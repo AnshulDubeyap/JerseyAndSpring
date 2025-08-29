@@ -1,0 +1,6 @@
+package Anshul.WebApp1;
+
+public class Alien {
+	private String aname;
+
+}

@@ -1,0 +1,23 @@
+package Anshul.WebApp3;
+
+
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+
+public class AlienResources {
+	
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public Alien createAlien() {
+		
+		System.out.print("Get Alien method is Called");		
+		Alien a1 = new Alien();
+		
+		a1.setName("Anshul");
+		a1.setPoints(88);
+		
+		return a1;
+	}
+
+}

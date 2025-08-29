@@ -1,0 +1,8 @@
+package Anshul.WebApp3;
+
+public class Alien {
+	
+	private String name;
+	private int points;
+
+}
